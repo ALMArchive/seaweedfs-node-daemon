@@ -33,10 +33,12 @@
   "homepage": "",
   "dependencies": {
     "@koa/router": "^10.0.0",
+    "@octokit/rest": "^18.0.12",
     "daemon": "^1.1.0",
     "http-terminator": "^2.0.3",
     "koa": "^2.13.0",
-    "koa-static": "^5.0.0"
+    "koa-static": "^5.0.0",
+    "octokit": "^1.0.0-hello-world"
   },
   "devDependencies": {
     "@almaclaine/rollup-config": "^0.0.2",
