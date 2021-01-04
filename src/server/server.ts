@@ -5,6 +5,9 @@ import koaStatic from 'koa-static';
 import {
     createHttpTerminator,
 } from 'http-terminator';
+import {setupFolders} from "../utilities";
+
+setupFolders();
 
 const fs = require('fs');
 const stdoutFd = fs.openSync('output.log', 'a');
