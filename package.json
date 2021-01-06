@@ -6,12 +6,10 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "start": "node -r esm -r ts-node/register src/server/server.ts",
-    "test": "npx jest",
+    "start": "node -r esm -r ts-node/register src/server/server.js",
     "clean": "rm -rd dist",
     "rollup": "rollup -c ./rollup.config.js",
-    "build": "npm run test && npm run clean && npm run compile && npm run rollup",
-    "compile": "tsc --outDir dist --project tsconfig.build.json",
+    "build": "npm run clean && npm run rollup",
     "prepublishOnly": "npm run build"
   },
   "repository": {
@@ -35,10 +33,16 @@
     "@koa/router": "^10.0.0",
     "@octokit/rest": "^18.0.12",
     "daemon": "^1.1.0",
+    "gunzip-maybe": "^1.4.2",
     "http-terminator": "^2.0.3",
     "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-compose": "^4.1.0",
     "koa-static": "^5.0.0",
-    "octokit": "^1.0.0-hello-world"
+    "node-fetch": "^2.6.1",
+    "octokit": "^1.0.0-hello-world",
+    "tar-fs": "^2.1.1",
+    "unzipper": "^0.10.11"
   },
   "devDependencies": {
     "@almaclaine/rollup-config": "^0.0.2",
