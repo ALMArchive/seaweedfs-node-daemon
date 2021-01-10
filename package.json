@@ -6,7 +6,7 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "start": "node -r esm -r ts-node/register src/server/server.js",
+    "start": "npm run build; node dist/index.bundle.js",
     "clean": "rm -rd dist",
     "rollup": "rollup -c ./rollup.config.js",
     "build": "npm run clean && npm run rollup",

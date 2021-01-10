@@ -3,6 +3,9 @@ import Router from '@koa/router';
 import koaStatic from 'koa-static';
 import bodyParser from 'koa-body';
 import {appendFileSync} from "fs";
+import os from 'os';
+
+const port = isNaN(parseInt(process.argv[2])) ? 3000 : process.argv[2];
 
 import {
     createHttpTerminator,
@@ -18,15 +21,9 @@ for (const err in Errors) {
 
 setupFolders();
 
-const fs = require('fs');
-const stdoutFd = fs.openSync('output.log', 'a');
-const stderrFd = fs.openSync('errors.log', 'a');
-require('daemon')({
-    stdout: stdoutFd,
-    stderr: stderrFd
-});
+console.log('Starting daemon. Standard out going to output.log. Temporary Directory: ' + os.tmpdir());
 
-process.title = 'SeaweedFS Daemon Server';
+const fs = require('fs');
 
 const app = new Koa();
 
@@ -67,7 +64,6 @@ app.use(async (ctx, next) => {
 
 import api from './api';
 
-app.use(api.routes()).use(api.allowedMethods());
 
 const router = new Router();
 
@@ -79,15 +75,30 @@ router.get('/shut-down', async (ctx, next) => {
     process.nextTick(httpTerminator.terminate);
 })
 
-app.use(router.routes()).use(router.allowedMethods());
+api.use('/api', router.routes()).use(router.allowedMethods());
+app.use(api.routes()).use(api.allowedMethods());
 
-const server = app.listen(3000);
 
-const httpTerminator = createHttpTerminator({
-    server
-});
+let httpTerminator;
 
+try {
+    const server = app.listen(port);
+    httpTerminator = createHttpTerminator({
+        server
+    });
+} catch(error) {
+    console.log('Application already open on port');
+}
 
 console.log('listening on port 3000');
 
 export const init = () => {};
+
+const stdoutFd = fs.openSync('output.log', 'a');
+const stderrFd = fs.openSync('errors.log', 'a');
+require('daemon')({
+    stdout: stdoutFd,
+    stderr: stderrFd
+});
+
+process.title = 'SeaweedFS Daemon Server';

@@ -1,6 +1,6 @@
 import Router from '@koa/router';
 import compose from "koa-compose";
-import {validateQueryParamsAll, validateQueryParamsAny} from "../../utilities";
+import {validateQueryParamsAny} from "../../utilities";
 import {downloadSeaweedBinary, getAvaiableSeaweedBinaries, getSeaweedVersions} from "../../../utilities";
 
 const router = new Router();

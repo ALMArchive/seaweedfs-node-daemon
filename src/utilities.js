@@ -63,11 +63,14 @@ export async function downloadSeaweedBinary(seaweedVersion) {
 
     const buffer = (await fetch(url)).body;
     let outPath;
+    let outName;
     if (name.includes('.zip')) {
-        outPath = join(downloadPath, name.replace('.zip', ''));
+        outName = name.replace('.zip', '');
+        outPath = join(downloadPath, outName);
         buffer.pipe(unzipper.Extract({path: outPath}))
     } else if (name.includes('.tar.gz')) {
-        outPath = join(downloadPath, name.replace('.tar.gz', ''));
+        outName = name.replace('.tar.gz', '');
+        outPath = join(downloadPath, outName);
         buffer.pipe(gunzip()).pipe(tar.extract(outPath));
     } else {
         throw new Error('Unknown Type');
@@ -77,7 +80,7 @@ export async function downloadSeaweedBinary(seaweedVersion) {
         if(files.length !== 1) {
             throw new Error('Archive has incorrect number of assets: ' + files.length);
         }
-        let fileName = 'weed_';
+        let fileName = `${outName}_`;
         if(name.includes('large')) fileName += 'large_disk_';
         fileName += version.replace(/\./g, '_');
         await fs.copyFile(join(outPath, files[0]), join(binPath, fileName));

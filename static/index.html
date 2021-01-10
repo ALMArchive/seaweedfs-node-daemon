@@ -41,7 +41,7 @@
         }
         setTimeout(async () => {
             try {
-                const res2 = await fetch('/');
+                await fetch('/');
                 systemStatus.innerText = 'On (shutdown failed)';
             } catch (err) {
                 systemStatus.innerText = 'System off';
