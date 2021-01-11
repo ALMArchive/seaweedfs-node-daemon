@@ -1,53 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>SeaweedFS Daemon Webview</title>
+	<meta charset='utf8'>
+	<meta name='viewport' content='width=device-width'>
+
+	<title>Svelte app</title>
+
+	<link rel='icon' type='image/png' href='favicon.png'>
+	<link rel='stylesheet' href='global.css'>
+	<link rel='stylesheet' href='bundle.css'>
 </head>
-<style>
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
 
-    html, body {
-        height: 100%;
-    }
-
-    .container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        flex-direction: column;
-    }
-</style>
 <body>
-<div class='container'>
-    <button id="shut-down">Shut Down</button>
-    <div>Status: <span id="system-status">On</span></div>
-</div>
-<script>
-    const shutDownButton = document.getElementById('shut-down');
-    const systemStatus = document.getElementById('system-status');
-    shutDownButton.addEventListener('click', async () => {
-        systemStatus.innerText = 'Shutdown Request Sent';
-        const res = await fetch('/api/shut-down');
-        const data = await res.json();
-        console.log(data);
-        if (data.shuttingDown === true) {
-            systemStatus.innerText = 'Shutting down';
-        }
-        setTimeout(async () => {
-            try {
-                await fetch('/');
-                systemStatus.innerText = 'On (shutdown failed)';
-            } catch (err) {
-                systemStatus.innerText = 'System off';
-            }
-        }, 1000);
-    })
-</script>
+	<script src='bundle.js'></script>
 </body>
 </html>
