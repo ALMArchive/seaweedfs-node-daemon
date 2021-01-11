@@ -1,55 +1,38 @@
 Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
 listening on port 3000
-open
-Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
-listening on port 3000
+???
+{
+  config: {
+    bin: 'darwin_amd64_2_19',
+    mVolumeSizeLimitMB: '1024',
+    vMax: 128,
+    mode: 's3',
+    dir: '/Volumes/HOARDING01/weedfs_data'
+  }
+}
 Shutting down
+killing child
+stdout: volume server has be killed
+
 Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
 listening on port 3000
-Shutting down
-Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
-listening on port 3000
-Shutting down
-Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
-listening on port 3000
-Shutting down
-Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
-listening on port 3000
-Shutting down
-Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
-listening on port 3000
-Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
-listening on port 3000
-Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
-listening on port 3000
-Shutting down
-Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
-listening on port 3000
-Shutting down
-Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
-listening on port 3000
-Shutting down
-Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
-listening on port 3000
-Shutting down
-Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
-listening on port 3000
-Shutting down
-Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
-listening on port 3000
-Shutting down
-Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
-listening on port 3000
-Shutting down
-Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
-listening on port 3000
-Shutting down
-Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
-listening on port 3000
-Shutting down
-Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
-listening on port 3000
-Shutting down
-Starting daemon. Standard out going to output.log. Temporary Directory: /var/folders/r0/ktfq_wg90b18mrfb034n78wr0000gn/T
-listening on port 3000
-Shutting down
+???
+{
+  config: {
+    bin: 'darwin_amd64_2_20',
+    mVolumeSizeLimitMB: '1024',
+    vMax: 128,
+    mode: 's3',
+    dir: '/Volumes/HOARDING01/weedfs_data'
+  }
+}
+???
+{
+  config: {
+    bin: 'darwin_amd64_2_20',
+    mVolumeSizeLimitMB: '1024',
+    vMax: 128,
+    mode: 's3',
+    dir: '/Volumes/HOARDING01/weedfs_data'
+  }
+}

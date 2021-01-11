@@ -3,6 +3,7 @@ import Router from '@koa/router';
 import koaStatic from 'koa-static';
 import bodyParser from 'koa-body';
 import {appendFileSync} from "fs";
+import {child} from "./api/system";
 import os from 'os';
 
 const port = isNaN(parseInt(process.argv[2])) ? 3000 : process.argv[2];
@@ -10,7 +11,7 @@ const port = isNaN(parseInt(process.argv[2])) ? 3000 : process.argv[2];
 import {
     createHttpTerminator,
 } from 'http-terminator';
-import {setupFolders} from "../utilities";
+import {setupFolders, initConfig} from "../utilities";
 
 import {Errors} from "./errors";
 
@@ -20,6 +21,7 @@ for (const err in Errors) {
 }
 
 setupFolders();
+initConfig();
 
 console.log('Starting daemon. Standard out going to output.log. Temporary Directory: ' + os.tmpdir());
 
@@ -72,6 +74,10 @@ app.use(koaStatic('./static'));
 router.get('/shut-down', async (ctx, next) => {
     console.log('Shutting down');
     ctx.body = {shuttingDown: true};
+    if(child !== null) {
+        child.kill();
+        console.log('killing child');
+    }
     process.nextTick(httpTerminator.terminate);
 })
 

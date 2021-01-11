@@ -7,12 +7,15 @@ import tar from 'tar-fs';
 import {promises as fs} from 'fs';
 import unzipper from 'unzipper';
 import gunzip from "gunzip-maybe";
+import {exec} from 'child_process';
+import {writeFileSync} from "fs";
 
 const octokit = new Octokit();
 
 export const seaweedFolder = join(tmpdir(), 'seaweedfs-daemon');
 export const binPath = join(seaweedFolder, 'bin');
 export const downloadPath = join(seaweedFolder, 'download');
+const configPath = join(seaweedFolder, 'config.json');
 
 function makeFolder(folder) {
     if (!existsSync(folder)) {
@@ -77,17 +80,92 @@ export async function downloadSeaweedBinary(seaweedVersion) {
     }
     buffer.on('end', async () => {
         const files = await fs.readdir(outPath);
-        if(files.length !== 1) {
+        if (files.length !== 1) {
             throw new Error('Archive has incorrect number of assets: ' + files.length);
         }
         let fileName = `${outName}_`;
-        if(name.includes('large')) fileName += 'large_disk_';
+        if (name.includes('large')) fileName += 'large_disk_';
         fileName += version.replace(/\./g, '_');
-        await fs.copyFile(join(outPath, files[0]), join(binPath, fileName));
+        const filePath = join(binPath, fileName);
+        const exec = await fs.readFile(join(outPath, files[0]));
+        await fs.writeFile(filePath, exec);
+        await fs.chmod(filePath, 0o755);
         await fs.rmdir(outPath, {recursive: true});
     });
 }
 
 export async function getAvaiableSeaweedBinaries() {
     return (await fs.readdir(binPath)).filter(e => e !== '.DS_Store');
+}
+
+const defaultConfig = {
+    bin: '',
+    mVolumeSizeLimitMB: 1024,
+    vMax: 128,
+    mode: 's3',
+    dir: ''
+}
+
+export async function initConfig() {
+    if (await existsSync(configPath)) return;
+    await fs.writeFile(configPath, JSON.stringify(defaultConfig));
+}
+
+export async function getConfig() {
+    return JSON.parse(await fs.readFile(configPath, 'utf-8'));
+}
+
+export async function updateConfig(prop, value) {
+    const config = await getConfig();
+    await fs.writeFile(configPath, JSON.stringify({...config, ...{[prop]: value}}));
+}
+
+export function buildExecString(config) {
+    const {
+        bin,
+        mVolumeSizeLimitMB,
+        vMax,
+        mode,
+        dir
+    } = config;
+
+    if (!bin) {
+        throw new Error('bin must be path to executable');
+    }
+
+    if (!dir) {
+        throw new Error('dir must be path to data directory');
+    }
+
+    let execString = `${join(binPath, bin)} server `;
+    if (mVolumeSizeLimitMB) {
+        execString += `-master.volumeSizeLimitMB=${mVolumeSizeLimitMB} `;
+    }
+
+    if (vMax) {
+        execString += `-volume.max=${vMax} `;
+    }
+
+    if (mode) {
+        execString += `-${mode} `;
+    }
+
+    if (dir) {
+        execString += `-dir=${dir} `;
+    }
+
+    return execString;
+}
+
+export function weedExec(execString) {
+    return exec(execString, (error, stdout, stderr) => {
+        if (error) {
+            console.error(`exec error: ${error}`);
+            return;
+        }
+
+        console.log(`stdout: ${stdout}`);
+        writeFileSync('seaweedfs_out.log', stdout);
+        console.error(`stderr: ${stderr}`);
+    });
 }

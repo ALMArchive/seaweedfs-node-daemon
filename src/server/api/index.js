@@ -1,10 +1,14 @@
 import Router from '@koa/router';
 
 const api = new Router();
-import binaryRoutes from './binary/index';
+import binaryRoutes from './binary';
+import configRoutes from './config';
+import systemRoutes from './system';
 
 const routes = [
-    binaryRoutes
+    binaryRoutes,
+    configRoutes,
+    systemRoutes
 ];
 
 for (const route of routes) {

@@ -1,12 +1,10 @@
 import Router from '@koa/router';
 import compose from "koa-compose";
-import {validateQueryParamsAny} from "../../utilities";
+import {validateQueryParamsAny} from "../../koa-utilities";
 import {downloadSeaweedBinary, getAvaiableSeaweedBinaries, getSeaweedVersions} from "../../../utilities";
 
-const router = new Router();
 
 const route = new Router();
-
 
 function makeid(length = 8) {
     var result = '';
@@ -45,6 +43,7 @@ async function postHandler(ctx) {
     const {id} = ctx.request.query;
     if(id in cachedSeaweedVersions) {
         await downloadSeaweedBinary(cachedSeaweedVersions[id]);
+        console.log('#!@');
         ctx.body = {};
     } else {
         ctx.status = 400;
@@ -57,6 +56,7 @@ route.post('/', compose([
     postHandler
 ]));
 
+const router = new Router();
 router.use(`/binary`, route.routes(), route.allowedMethods());
 
 export default router;

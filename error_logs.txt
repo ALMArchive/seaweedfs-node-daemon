@@ -1,0 +1,1409 @@
+Sun Jan 10 2021 13:18:38 GMT-0600 (Central Standard Time)
+Error:
+MissingQueryParameter
+Stack Trace:
+Error: MissingQueryParameter
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:153:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:188:41)
+    at validateParams (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:197:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:377:31)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-static/index.js:53:15)
+
+ReferenceError: readConfig is not defined
+    at updateConfig (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:143:18)
+    at putHandler (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:294:9)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at validateParams (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:199:11)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:377:31)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)ReferenceError: readConfig is not defined
+    at updateConfig (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:143:18)
+    at putHandler (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:294:9)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at validateParams (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:199:11)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:377:31)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)TypeError: Cannot use 'in' operator to search for 'config' in [object Object]
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:26
+    at Array.every (<anonymous>)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:13)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16TypeError: Cannot use 'in' operator to search for 'config' in [object Object]
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:26
+    at Array.every (<anonymous>)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:13)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16TypeError: Cannot use 'in' operator to search for 'config' in [object Object]
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:26
+    at Array.every (<anonymous>)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:13)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16TypeError: Cannot use 'in' operator to search for 'config' in [object Object]
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:26
+    at Array.every (<anonymous>)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:13)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:94:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16TypeError: Cannot use 'in' operator to search for 'config' in [object Object]
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:26
+    at Array.every (<anonymous>)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:13)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:94:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16TypeError: Cannot use 'in' operator to search for 'config' in [object Object]
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:26
+    at Array.every (<anonymous>)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:13)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:94:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:22)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:22)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:22)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12TypeError: Cannot use 'in' operator to search for 'config' in [object Object]
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:26
+    at Array.every (<anonymous>)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:13)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:94:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16TypeError: Cannot use 'in' operator to search for 'config' in [object Object]
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:26
+    at Array.every (<anonymous>)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:13)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:94:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16TypeError: Cannot use 'in' operator to search for 'config' in [object Object]
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:26
+    at Array.every (<anonymous>)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:13)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:94:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16TypeError: Cannot use 'in' operator to search for 'config' in [object Object]
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:26
+    at Array.every (<anonymous>)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:13)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16Sun Jan 10 2021 22:38:08 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:38:28 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:38:38 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:38:39 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:38:39 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:38:51 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:39:18 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+TypeError: Cannot use 'in' operator to search for 'config' in {
+    "config": {"test": 2}
+}
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:26
+    at Array.every (<anonymous>)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:13)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16Sun Jan 10 2021 22:42:51 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:43:04 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:43:16 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:44:02 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:94:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:44:33 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:94:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:22)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12Sun Jan 10 2021 22:45:10 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:94:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:45:51 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:94:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:46:22 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:94:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:46:40 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:94:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:47:02 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:94:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:47:29 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:94:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:48:17 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:48:53 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:94:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:22)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12Sun Jan 10 2021 22:49:36 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:94:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:50:19 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:95:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:50:56 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:95:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:51:54 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:69:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:92:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:52:36 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:71:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:94:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:53:11 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:41)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:95:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Error: bin must be path to executable
+    at buildExecString (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:237:11)
+    at systemPostHandler (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:299:20)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:97:11)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16Sun Jan 10 2021 22:55:23 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:95:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:55:44 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:95:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Error: bin must be path to executable
+    at buildExecString (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:239:11)
+    at systemPostHandler (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:301:20)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:99:11)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16Sun Jan 10 2021 22:58:07 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:97:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:58:18 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:97:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 22:58:39 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:97:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Error: bin must be path to executable
+    at buildExecString (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:240:11)
+    at systemPostHandler (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:302:20)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:100:11)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16Error: bin must be path to executable
+    at buildExecString (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:240:11)
+    at systemPostHandler (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:302:20)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:100:11)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16Sun Jan 10 2021 23:02:31 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:98:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 23:02:37 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:98:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 23:02:57 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:98:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Error: bin must be path to executable
+    at buildExecString (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:240:11)
+    at systemPostHandler (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:302:20)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:100:11)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16Error: bin must be path to executable
+    at buildExecString (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:240:11)
+    at systemPostHandler (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:302:20)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:100:11)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16Sun Jan 10 2021 23:05:43 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:98:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 23:05:44 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:98:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 23:05:44 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:98:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 23:05:44 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:98:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 23:05:44 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:98:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 23:05:44 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:98:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 23:05:44 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:98:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 23:05:50 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:98:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 23:05:50 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:98:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+Sun Jan 10 2021 23:05:50 GMT-0600 (Central Standard Time)
+Error:
+MissingBodyProperty
+Stack Trace:
+Error: MissingBodyProperty
+    at createError (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:34:17)
+    at _allKeysInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:72:48)
+    at validateProps (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:98:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at allowedMethods (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:433:12)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+
+TypeError: arr.includes is not a function
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:73:27
+    at Array.some (<anonymous>)
+    at _anyKeyInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:73:13)
+    at validateParams (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:85:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:377:31)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-static/index.js:53:15)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:435:11
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)TypeError: arr.includes is not a function
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:73:27
+    at Array.some (<anonymous>)
+    at _anyKeyInArray (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:73:13)
+    at validateParams (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:85:5)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:372:16
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/@koa/router/lib/router.js:377:31)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at serve (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-static/index.js:53:15)
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)
+    at /Users/Diatta/WebstormProjects/seaweedfs-node-daemon/dist/index.bundle.js:435:11
+    at dispatch (/Users/Diatta/WebstormProjects/seaweedfs-node-daemon/node_modules/koa-compose/index.js:42:32)

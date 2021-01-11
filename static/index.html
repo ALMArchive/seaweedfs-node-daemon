@@ -33,7 +33,7 @@
     const systemStatus = document.getElementById('system-status');
     shutDownButton.addEventListener('click', async () => {
         systemStatus.innerText = 'Shutdown Request Sent';
-        const res = await fetch('/shut-down');
+        const res = await fetch('/api/shut-down');
         const data = await res.json();
         console.log(data);
         if (data.shuttingDown === true) {
